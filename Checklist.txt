@@ -1,0 +1,158 @@
+Perfect. Here’s a **clean, no-fluff, brutally clear checklist** of all the test cases your calculator app claims to handle, categorized by feature. You can use this to verify, debug, or rate how well it works per case.
+
+---
+
+## ✅ FUNCTIONAL CHECKLIST: CALCULATOR FEATURES
+
+---
+
+### 🧮 **1. Main Calculator (Standard & Advanced Standard Mode)**
+
+| Test Case | Description                                                      | Checked? |
+| --------- | ---------------------------------------------------------------- | -------- |
+| 1.1       | Basic arithmetic: `12 + 3 * 4 - 10 / 2` = `19` (sequential eval) | ☐        |
+| 1.2       | Percent calc: `100 + 10%` = `110` (after % shows `10`)           | ☐        |
+| 1.3       | Parentheses: `(2 + 3) * 4` = `20`                                | ☐        |
+| 1.4       | Scientific: `9 sqrt` = `3`                                       | ☐        |
+| 1.5       | Scientific (DEG): `30 sin` = `0.5`                               | ☐        |
+| 1.6       | Scientific (RAD): `π/2 cos` ≈ `0`                                | ☐        |
+| 1.7       | Scientific: `100 log` = `2`                                      | ☐        |
+| 1.8       | Scientific: `e ln` = `1`                                         | ☐        |
+| 1.9       | Scientific: `2 ^ 3` = `8`                                        | ☐        |
+| 1.10      | Scientific: `5!` = `120`                                         | ☐        |
+| 1.11      | Constant: `π` = `3.14159...`                                     | ☐        |
+| 1.12      | Constant: `e` = `2.71828...`                                     | ☐        |
+
+---
+
+### 💾 **2. Memory Functions**
+
+| Test Case | Description                                                                        | Checked? |
+| --------- | ---------------------------------------------------------------------------------- | -------- |
+| 2.1       | `5 MS C 10 M+ MR C 2 M- MR MC MR` (see memory sequence from 5 → 15 → 13 → cleared) | ☐        |
+
+---
+
+### 🛠️ **3. Utility Tools (Dropdown)**
+
+#### ➤ Tip, Discount, Currency, BMI, Age, % Calculator
+
+| Test Case | Description                                                                   | Checked? |
+| --------- | ----------------------------------------------------------------------------- | -------- |
+| 3.1       | Tip Calculator: `100`, `18%`, `2 people` → Tip: `18`, Total: `118`, Per: `59` | ☐        |
+| 3.2       | Discount: `200`, `25%` → Saved: `50`, Final: `150`                            | ☐        |
+| 3.3       | Currency: `10 USD → EUR` (mock rate e.g. `0.926`) → `9.26 EUR`                | ☐        |
+| 3.4       | BMI: `70kg`, `175cm` → BMI: `22.86`, Category: `Normal`                       | ☐        |
+| 3.5       | Age: `2000-01-01` → Correct age + next birthday msg                           | ☐        |
+| 3.6       | % Calculator: `20% of 150` = `30`                                             | ☐        |
+
+---
+
+#### ➤ Unit Converter Hub (Various)
+
+| Test Case | Description                          | Checked? |
+| --------- | ------------------------------------ | -------- |
+| 3.7       | Length: `10m → ft` ≈ `32.8084`       | ☐        |
+| 3.8       | Mass: `5kg → lb` ≈ `11.0231`         | ☐        |
+| 3.9       | Temp: `100°C → °F` = `212°F`         | ☐        |
+| 3.10      | Data: `1GB → MB` = `1000MB`          | ☐        |
+| 3.11      | Speed: `60km/h → mph` ≈ `37.2823`    | ☐        |
+| 3.12      | Area: `1m² → ft²` ≈ `10.7639`        | ☐        |
+| 3.13      | Volume: `1L → gal (US)` ≈ `0.264172` | ☐        |
+| 3.14      | Time: `3600s → hr` = `1hr`           | ☐        |
+| 3.15      | Energy: `1kWh → J` = `3,600,000`     | ☐        |
+| 3.16      | Power: `1hp → W` ≈ `745.7`           | ☐        |
+| 3.17      | Pressure: `1atm → Pa` = `101325`     | ☐        |
+
+---
+
+### 🧠 **4. Expression Solver (Custom Parser)**
+
+| Test Case | Description                                      | Checked? |
+| --------- | ------------------------------------------------ | -------- |
+| 4.1       | `(10 + x) * 2 - y / 4` with x=5, y=20 → `25`     | ☐        |
+| 4.2       | Derivative of `sin(x^2) + 2x` → raw & simplified | ☐        |
+| 4.3       | Expand: `(x+1)*(x-1)` → `x^2 - 1`                | ☐        |
+| 4.4       | Rearrange: `y = mx + c` → `y - (mx + c) = 0`     | ☐        |
+
+---
+
+### 📉 **5. Graphing Calculator**
+
+| Test Case | Description                                   | Checked? |
+| --------- | --------------------------------------------- | -------- |
+| 5.1       | Plot: `x^2 - 2` & `sin(x)` from `x = -5 to 5` | ☐        |
+
+---
+
+### 📚 **6. Formula Reference**
+
+| Test Case | Description                                    | Checked? |
+| --------- | ---------------------------------------------- | -------- |
+| 6.1       | Add: `"E = mc^2"`, edit/delete/export as LaTeX | ☐        |
+
+---
+
+### 🎓 **7. Math Quiz**
+
+| Test Case | Description                                      | Checked? |
+| --------- | ------------------------------------------------ | -------- |
+| 7.1       | Set age: `10`, start quiz, verify level, answers | ☐        |
+
+---
+
+### 📐 **8. Equation Solvers**
+
+| Test Case | Description                                      | Checked? |
+| --------- | ------------------------------------------------ | -------- |
+| 8.1       | Quadratic: `1, -3, 2` → roots: `2 & 1`, Δ = 1    | ☐        |
+| 8.2       | Quadratic: `1, -2, 1` → root: `1`, Δ = 0         | ☐        |
+| 8.3       | Quadratic: `1, 2, 5` → roots: `-1 ± 2i`, Δ = -16 | ☐        |
+| 8.4       | 2x2 System: `2x+3y=8`, `x-y=-1` → x=1, y=2       | ☐        |
+| 8.5       | 3x3 System: Multiple eqs → x=1, y=2, z=3         | ☐        |
+
+---
+
+### 📅 **9. Date & Series Tools**
+
+| Test Case | Description                                                          | Checked? |
+| --------- | -------------------------------------------------------------------- | -------- |
+| 9.1       | Date diff: 2023-01-15 to 2024-03-20 → correct diff (toggle end date) | ☐        |
+| 9.2       | Taylor Series: `sin(x*y)`, x=0, y=0, order=2 → `x*y`                 | ☐        |
+
+---
+
+### ➗ **10. Limit Calculator**
+
+| Test Case | Description                                          | Checked? |
+| --------- | ---------------------------------------------------- | -------- |
+| 10.1      | `(x^2 - 1) / (x - 1)` → limit exists (should be `2`) | ☐        |
+
+---
+
+## 🔧 How to Use This Checklist:
+
+1. **Print it or track in Notion/Excel**.
+2. For each case:
+
+   * Try the input exactly as given.
+   * Check output against “Expected”.
+   * Mark ☐ → ✅ when it passes.
+3. If a case fails, note the bug in a separate log.
+
+---
+
+Let me know if you want:
+
+* A downloadable `.md` or `.xlsx` version of this.
+* A UI-based HTML checklist page to test interactively.
+* Auto-test script for cases (if calculator has API/hooks).
+
+Ready to proceed?
+
+
+Show a cute “Support this calculator” button.
+
+"Help keep this app free & ad-free for everyone."
+
+Add a “name wall” for donors on the app.

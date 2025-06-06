@@ -1,0 +1,19 @@
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://simple-calc-kappa.vercel.app/sitemap.xml
+
+# Allow all search engines to index our mathematical tools
+Allow: /calculator
+Allow: /graphing
+Allow: /statistics
+Allow: /financial
+Allow: /units
+Allow: /percentage
+Allow: /about
+Allow: /tutorials
+Allow: /tools
+
+# Crawl delay (be respectful to search engines)
+Crawl-delay: 1
