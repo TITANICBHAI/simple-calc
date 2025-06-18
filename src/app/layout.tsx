@@ -24,7 +24,7 @@ export const metadata: Metadata = {
   },
   // Google Search Console verification - you'll get this code when you add your property
   verification: {
-    google: 'your-google-verification-code-here'
+    google: 'p_nM5UQGi4P-XxZWzkNBNK0htFxIVIZKhVT6H9Q4WJY'
   }
 };
 
