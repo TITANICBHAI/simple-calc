@@ -74,3 +74,5 @@ capacitor.config.ts # If you use TypeScript version for config
 # Log files
 logs
 *.log
+
+/nothing
