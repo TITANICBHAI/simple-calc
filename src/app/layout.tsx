@@ -50,7 +50,19 @@ export default function RootLayout({
         />
         
         {/* Favicon */}
-        <link rel="icon" href="/favicon.ico" type="image/x-icon" />
+  <link rel="icon" href="/favicon.ico" type="image/x-icon" />
+
+  {/* Microsoft Clarity */}
+  <script
+    type="text/javascript"
+    dangerouslySetInnerHTML={{
+      __html: `(function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+      })(window, document, "clarity", "script", "s1a9sscmrw");`
+    }}
+  />
       </head>
       <body className="antialiased font-sans bg-gradient-to-br from-blue-50 to-indigo-100 min-h-screen flex flex-col">
         <ClientRoot>
