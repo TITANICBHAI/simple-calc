@@ -1,75 +1,130 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
   <url>
     <loc>https://simple-calc-kappa.vercel.app/</loc>
     <lastmod>2025-01-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
+
   <url>
     <loc>https://simple-calc-kappa.vercel.app/about</loc>
     <lastmod>2025-01-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
+
   <url>
-    <loc>https://simple-calc-kappa.vercel.app/tutorials</loc>
-    <lastmod>2025-01-26</lastmod>
+    <loc>https://simple-calc-kappa.vercel.app/advanced-math</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
   </url>
+
   <url>
-    <loc>https://simple-calc-kappa.vercel.app/tools</loc>
-    <lastmod>2025-01-26</lastmod>
+    <loc>https://simple-calc-kappa.vercel.app/ai-math</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
   </url>
+
+  <url>
+    <loc>https://simple-calc-kappa.vercel.app/api-test</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
   <url>
     <loc>https://simple-calc-kappa.vercel.app/calculator</loc>
     <lastmod>2025-01-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
+
   <url>
-    <loc>https://simple-calc-kappa.vercel.app/graphing</loc>
-    <lastmod>2025-01-26</lastmod>
+    <loc>https://simple-calc-kappa.vercel.app/developer</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
-  <url>
-    <loc>https://simple-calc-kappa.vercel.app/statistics</loc>
-    <lastmod>2025-01-26</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
+
   <url>
     <loc>https://simple-calc-kappa.vercel.app/financial</loc>
     <lastmod>2025-01-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
+
   <url>
-    <loc>https://simple-calc-kappa.vercel.app/units</loc>
+    <loc>https://simple-calc-kappa.vercel.app/graphing</loc>
     <lastmod>2025-01-26</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
+
+  <url>
+    <loc>https://simple-calc-kappa.vercel.app/help</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://simple-calc-kappa.vercel.app/ml-quantum</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
   <url>
     <loc>https://simple-calc-kappa.vercel.app/percentage</loc>
     <lastmod>2025-01-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
+
   <url>
     <loc>https://simple-calc-kappa.vercel.app/privacy</loc>
     <lastmod>2025-01-26</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.5</priority>
   </url>
+
+  <url>
+    <loc>https://simple-calc-kappa.vercel.app/settings</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://simple-calc-kappa.vercel.app/statistics</loc>
+    <lastmod>2025-01-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
   <url>
     <loc>https://simple-calc-kappa.vercel.app/terms</loc>
     <lastmod>2025-01-26</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.5</priority>
   </url>
+
+  <url>
+    <loc>https://simple-calc-kappa.vercel.app/tools</loc>
+    <lastmod>2025-01-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://simple-calc-kappa.vercel.app/tutorials</loc>
+    <lastmod>2025-01-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://simple-calc-kappa.vercel.app/units</loc>
+    <lastmod>2025-01-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
 </urlset>
