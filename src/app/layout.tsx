@@ -23,9 +23,9 @@ export const metadata: Metadata = {
     googleBot: { index: true, follow: true },
   },
   // Google Search Console verification - you'll get this code when you add your property
-  verification: {
-    google: 'p_nM5UQGi4P-XxZWzkNBNK0htFxIVIZKhVT6H9Q4WJY'
-   yandex: 'cd714801fdf5014d'
+   verification: {
+    google: 'p_nM5UQGi4P-XxZWzkNBNK0htFxIVIZKhVT6H9Q4WJY',
+    yandex: 'cd714801fdf5014d'
   }
 };
 
