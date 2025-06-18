@@ -25,7 +25,6 @@ Allow: /terms
 Allow: /tools
 Allow: /tutorials
 Allow: /units
-
+Allow: /settings
 # Optional: prevent test/dev pages
 Disallow: /api-test
-Disallow: /settings
