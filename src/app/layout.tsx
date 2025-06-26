@@ -11,19 +11,19 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'MathHub - Free Online Calculator & Mathematical Tools',
     description: 'Free comprehensive mathematical toolkit with scientific calculator, graphing tools, statistics, financial calculators, and AI-powered problem solving.',
-    url: 'https://simple-calc-kappa.vercel.app/',
+    url: 'https://calcprime.vercel.app/',
     siteName: 'MathHub',
     locale: 'en_US',
     type: 'website',
   },
-  metadataBase: new URL('https://simple-calc-kappa.vercel.app/'),
+  metadataBase: new URL('https://calcprime.vercel.app/'),
   robots: {
     index: true,
     follow: true,
     googleBot: { index: true, follow: true },
   },
   // Google Search Console verification - you'll get this code when you add your property
-    verification: {
+   verification: {
     google: 'p_nM5UQGi4P-XxZWzkNBNK0htFxIVIZKhVT6H9Q4WJY',
     yandex: 'cd714801fdf5014d'
   }
@@ -37,10 +37,12 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <head>
-        {/* SEO meta tags */}
-        <meta name="description" content="Free online calculator with advanced mathematical tools. Scientific calculator, graphing, statistics, financial calculators, unit converter, and AI-powered math solver." />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        
+  {/* SEO meta tags */}
+  <meta name="description" content="Free online calculator with advanced mathematical tools. Scientific calculator, graphing, statistics, financial calculators, unit converter, and AI-powered math solver." />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  {/* ✅ Bing Webmaster Tools Verification */}
+  <meta name="msvalidate.01" content="FC2887EF2F94BFFE090CAB25A456AE86" />
         {/* Google AdSense */}
         <meta name="google-adsense-account" content="ca-pub-1074051846339488" />
         <script 
