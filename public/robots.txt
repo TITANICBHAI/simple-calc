@@ -1,8 +1,6 @@
 User-agent: *
 Allow: /
-
-# Sitemap location
-Sitemap: https://simple-calc-kappa.vercel.app/sitemap.xml
+Sitemap: https://calcprime.vercel.app/sitemap.xml
 
 # Optional crawl control
 Crawl-delay: 1
